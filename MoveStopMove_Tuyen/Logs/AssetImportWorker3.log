@@ -1,0 +1,919 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15613 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\unity\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/github/MoveStopMove_Tuyen/MoveStopMove_Tuyen
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51436
+Successfully changed project path to: E:/github/MoveStopMove_Tuyen/MoveStopMove_Tuyen
+E:/github/MoveStopMove_Tuyen/MoveStopMove_Tuyen
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25648] Host "[IP] 192.168.0.42 [Port] 0 [Flags] 2 [Guid] 1400408202 [EditorId] 1400408202 [Version] 1048832 [Id] WindowsEditor(7,bin1st090104) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25648] Host "[IP] 192.168.0.42 [Port] 0 [Flags] 2 [Guid] 1400408202 [EditorId] 1400408202 [Version] 1048832 [Id] WindowsEditor(7,bin1st090104) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 99.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path E:/unity/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/github/MoveStopMove_Tuyen/MoveStopMove_Tuyen/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3168
+Initialize mono
+Mono path[0] = 'E:/unity/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/unity/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/unity/2021.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/unity/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/unity/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002043 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 352 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 70.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Domain Reload Profiling:
+	ReloadAssembly (976ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (828ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (653ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (435ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002962 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\github\MoveStopMove_Tuyen\MoveStopMove_Tuyen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\github\MoveStopMove_Tuyen\MoveStopMove_Tuyen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (284.9 KB). Loaded Objects now: 3533.
+Memory consumption went from 116.6 MB to 116.3 MB.
+Total: 5.230600 ms (FindLiveObjects: 0.743500 ms CreateObjectMapping: 0.498200 ms MarkObjects: 3.881000 ms  DeleteObjects: 0.106000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 584258.504297 seconds.
+  path: Assets/Voxel Arsenal/Materials/Gradients/Additive/VoxelVerticalGlow2Additive.mat
+  artifactKey: Guid(3a3aad7427e7e2743886deba370a4660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Materials/Gradients/Additive/VoxelVerticalGlow2Additive.mat using Guid(3a3aad7427e7e2743886deba370a4660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beac94ad0e281811452c09d57287b854') in 0.142360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Voxel Arsenal/Materials/Gradients/Additive/VoxelVerticalMirroredGlowAdditive.mat
+  artifactKey: Guid(3eb5ea6dd2c76b74294f729b763a3f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Materials/Gradients/Additive/VoxelVerticalMirroredGlowAdditive.mat using Guid(3eb5ea6dd2c76b74294f729b763a3f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9040a2ec38e26fa73732ea80af2e8ce') in 0.019714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Voxel Arsenal/Models/Materials/03 - Default.mat
+  artifactKey: Guid(ae4580bb6a8684e4e938d223e0adec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Models/Materials/03 - Default.mat using Guid(ae4580bb6a8684e4e938d223e0adec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602413da273d17f5760c454d23f3b207') in 0.082888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Voxel Arsenal/Materials/Gradients/Additive/VoxelCentralGlowAdditive.mat
+  artifactKey: Guid(6e2f71a91acc7f843ac06a73a041d92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Materials/Gradients/Additive/VoxelCentralGlowAdditive.mat using Guid(6e2f71a91acc7f843ac06a73a041d92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dfd1817786ad9c138db1cf6e193d38') in 0.017054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/_Materials/cube_mat_green.mat
+  artifactKey: Guid(289a9060ae4968b4ea35f48ad313741f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/_Materials/cube_mat_green.mat using Guid(289a9060ae4968b4ea35f48ad313741f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0bf8bd2b2c877c5ea0549d546659eb') in 0.023837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Materials/cube_world_mat.mat
+  artifactKey: Guid(5d84c2ba2c1d4408ca682be990685e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Materials/cube_world_mat.mat using Guid(5d84c2ba2c1d4408ca682be990685e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1caa0f282a2d272e4f31e994fc331b95') in 0.018114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Voxel Arsenal/Demo/Materials/floor7x7.mat
+  artifactKey: Guid(869c13edb1f91174d9e1c06f00ddb4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Materials/floor7x7.mat using Guid(869c13edb1f91174d9e1c06f00ddb4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ee6100504bc54f96a637258695a664') in 0.015826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Voxel Arsenal/Materials/Gradients/Additive/VoxelStripesAdditive.mat
+  artifactKey: Guid(6b133b61642799441b0c862e75a577dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Materials/Gradients/Additive/VoxelStripesAdditive.mat using Guid(6b133b61642799441b0c862e75a577dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f25521f387fec799aac25a5c6697bcc') in 0.015760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Voxel Arsenal/Materials/Gradients/Multiply/VoxelVerticalGlowReverseMultiply.mat
+  artifactKey: Guid(ace312224ff0414408d370dc41e7c542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Materials/Gradients/Multiply/VoxelVerticalGlowReverseMultiply.mat using Guid(ace312224ff0414408d370dc41e7c542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787619942c6d8776e132d71d143a7712') in 0.070164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/_Materials/cube_mat_black.mat
+  artifactKey: Guid(b5f0631906fb9044082e5d4b7b53481d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/_Materials/cube_mat_black.mat using Guid(b5f0631906fb9044082e5d4b7b53481d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6cecc75bf5880bb3c1e464792e02b8') in 0.022592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Materials/jungle_monster_plant_mat.mat
+  artifactKey: Guid(a91906dc7696b4cdab08ef1c22dad8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Materials/jungle_monster_plant_mat.mat using Guid(a91906dc7696b4cdab08ef1c22dad8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995e71ba5eaba777dca12a201da8891a') in 0.020445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/_Materials/cube_mat_pink.mat
+  artifactKey: Guid(c1ad086e8d288d8459dda20eb456a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/_Materials/cube_mat_pink.mat using Guid(c1ad086e8d288d8459dda20eb456a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9284866cd83bc5d119a86bdeac5f1c') in 0.019019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Voxel Arsenal/Materials/Solids/Other/VoxelPowerupModular.mat
+  artifactKey: Guid(a25db665945d3314e83bbdc95a14df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Materials/Solids/Other/VoxelPowerupModular.mat using Guid(a25db665945d3314e83bbdc95a14df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86f204cab08f3f4880da4d94a5bd3f1') in 1.399535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.519688 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/weapon_fire_flower.fbx
+  artifactKey: Guid(a4fb6d9a0f4334e5ab599e55216e7c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/weapon_fire_flower.fbx using Guid(a4fb6d9a0f4334e5ab599e55216e7c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c4d1f5cdd8ebf54e902884106602ac') in 0.059409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Wood/Source/wood_window.fbx
+  artifactKey: Guid(33e7240c80a65ab4f9a869067ed9edbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Wood/Source/wood_window.fbx using Guid(33e7240c80a65ab4f9a869067ed9edbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15f32f9216fd2a5089d8872c16a74dc') in 0.036900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Documents/Bitgem/Tavern_Cube/Source/wood_floor_02.fbx
+  artifactKey: Guid(766e37d3ddf6b4fb2ae07451567ae541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Tavern_Cube/Source/wood_floor_02.fbx using Guid(766e37d3ddf6b4fb2ae07451567ae541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a829418b7139beaa330cee206d44f7a') in 0.021644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Documents/Bitgem/Tavern_Cube/Source/wood_floor_01.fbx
+  artifactKey: Guid(30375666d1c57435e9bfdb6d1f72c6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Tavern_Cube/Source/wood_floor_01.fbx using Guid(30375666d1c57435e9bfdb6d1f72c6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0a1bd9883f1d6a8f4b1998d7e4f451') in 0.019091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.258267 seconds.
+  path: Assets/Voxel Arsenal/Models/VoxelRock04.FBX
+  artifactKey: Guid(72e0a406cb0afa140b483f6c7c8a8e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Models/VoxelRock04.FBX using Guid(72e0a406cb0afa140b483f6c7c8a8e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb52cee2a1c11da337397261139fb8d') in 0.018265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Voxel Arsenal/Models/VoxelSkullJaw.FBX
+  artifactKey: Guid(644f588c24c009b4ea8de02c7b3d1cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Models/VoxelSkullJaw.FBX using Guid(644f588c24c009b4ea8de02c7b3d1cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26a2bb6848bfd1f74d8d0f558b776d8') in 0.017843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005674 seconds.
+  path: Assets/Voxel Arsenal/Models/VoxelPowerupLightning.FBX
+  artifactKey: Guid(6ccce9ec0195cbb44a0cca0c8a5b1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Models/VoxelPowerupLightning.FBX using Guid(6ccce9ec0195cbb44a0cca0c8a5b1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f900eece08154f467e4242278c416054') in 0.018088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Voxel Arsenal/Models/VoxelPowerupShield.FBX
+  artifactKey: Guid(f37b68c291cbd594e9073ffd57624683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Models/VoxelPowerupShield.FBX using Guid(f37b68c291cbd594e9073ffd57624683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a1a645409881805b4e31aab8a3ec2d') in 0.017707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.255671 seconds.
+  path: Assets/Voxel Arsenal/Models/VoxelPowerupAmmo.FBX
+  artifactKey: Guid(70e94bdd80ad85d4b8af3c325aae7ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Models/VoxelPowerupAmmo.FBX using Guid(70e94bdd80ad85d4b8af3c325aae7ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8181c94bd518787df246d2b263b6180') in 0.017344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Voxel Arsenal/Models/VoxelPowerupAmmo3.FBX
+  artifactKey: Guid(96caf3b1be68fb94b914a8e7ab7e6cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Models/VoxelPowerupAmmo3.FBX using Guid(96caf3b1be68fb94b914a8e7ab7e6cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2cacb3feed7c64226241ec82009ab6') in 0.017608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015925 seconds.
+  path: Assets/Voxel Arsenal/Models/VoxelCubeRimlight.FBX
+  artifactKey: Guid(28af0b0b8e33f0948b8e1d3418628e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Models/VoxelCubeRimlight.FBX using Guid(28af0b0b8e33f0948b8e1d3418628e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79ebd698ce7f23c4e2e97614499dd2f') in 0.017980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Voxel Arsenal/Models/VoxelMarker01.FBX
+  artifactKey: Guid(825bf7af0bd1b7947862bf677350cd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Models/VoxelMarker01.FBX using Guid(825bf7af0bd1b7947862bf677350cd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bea5c4122ef75e23148b4384ed45352') in 0.017626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.159409 seconds.
+  path: Assets/Voxel Arsenal/Models/VoxelCube.FBX
+  artifactKey: Guid(84c8e94caee83eb4cba60ae7d81b12b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Models/VoxelCube.FBX using Guid(84c8e94caee83eb4cba60ae7d81b12b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0355c3501628bb319666bf88dfb19f5c') in 0.017677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Voxel Arsenal/Models/VoxelCubeGradient.FBX
+  artifactKey: Guid(87d2c7e62932afa41bfcb3253ed6b639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Models/VoxelCubeGradient.FBX using Guid(87d2c7e62932afa41bfcb3253ed6b639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173e7ace78029a0cdf55cc1475829287') in 0.015510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031283 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/vine_horizontal_curve_big_green_LOD_group.fbx
+  artifactKey: Guid(bff350134d72d4280be9ed541593be86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/vine_horizontal_curve_big_green_LOD_group.fbx using Guid(bff350134d72d4280be9ed541593be86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1854dd4041469e8665010b306c99fabf') in 0.032761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.329143 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/vine_big_curve_brown_LOD_group.fbx
+  artifactKey: Guid(7f93ccbea5f7142419ad71e9a571e17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/vine_big_curve_brown_LOD_group.fbx using Guid(7f93ccbea5f7142419ad71e9a571e17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1545e66e40e4ac0bd266151a5e6ed8ff') in 0.029869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Stone/Source/vine.fbx
+  artifactKey: Guid(65a7c95475f90d4419b801fb5b23fa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Stone/Source/vine.fbx using Guid(65a7c95475f90d4419b801fb5b23fa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1669a941f6dc9319816e719eabd10cb') in 0.033209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.199196 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/turret_base.fbx
+  artifactKey: Guid(ed94d8eb07a5f4157a6771fac8f1e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/turret_base.fbx using Guid(ed94d8eb07a5f4157a6771fac8f1e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d448e80b03d81c6d133ccea2ca975b') in 0.031656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.147925 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/trap_floor_LOD_group.fbx
+  artifactKey: Guid(1351f167164264e0183f3c0d7a3b194f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/trap_floor_LOD_group.fbx using Guid(1351f167164264e0183f3c0d7a3b194f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38919a91e7658b928f57fe04b63c643a') in 0.084649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.119236 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/jungle_monster_cannibal.fbx
+  artifactKey: Guid(ecb8327eea2b644c6b4d169c5b6871b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/jungle_monster_cannibal.fbx using Guid(ecb8327eea2b644c6b4d169c5b6871b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c9936e0ae176383c1f40ef36a787fb') in 0.247171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_wooden_shelve_jar.fbx
+  artifactKey: Guid(12cdb1f1a25854d92ad53b0cc31d74f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_wooden_shelve_jar.fbx using Guid(12cdb1f1a25854d92ad53b0cc31d74f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbb9c247ec5bf9c340db5eab3bd9899') in 0.039066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.168886 seconds.
+  path: Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_wall_block.fbx
+  artifactKey: Guid(bcd01870cb539463799b7256f4f09747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_wall_block.fbx using Guid(bcd01870cb539463799b7256f4f09747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6793c1b359a3e2a8ee5013ec242d1095') in 0.027153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.856517 seconds.
+  path: Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_MugOAle.fbx
+  artifactKey: Guid(df37d111b05154f14a07192060efe1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_MugOAle.fbx using Guid(df37d111b05154f14a07192060efe1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067d37ed4a029eef1eaf7ecf8d5d132a') in 0.032348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.131034 seconds.
+  path: Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_hanging_sign.fbx
+  artifactKey: Guid(7745206a547d545a3bef538af653e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_hanging_sign.fbx using Guid(7745206a547d545a3bef538af653e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3feca7e03b3985c1e252f23ab71884') in 0.060152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_faucet.fbx
+  artifactKey: Guid(85427300c691e4222a89fc5d389c54d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_faucet.fbx using Guid(85427300c691e4222a89fc5d389c54d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6085a90fb38f4ffae3fc89b6f54e4b8') in 0.081603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066093 seconds.
+  path: Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_door.fbx
+  artifactKey: Guid(bdcbed63b057d40b085353a87f2c2df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_door.fbx using Guid(bdcbed63b057d40b085353a87f2c2df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0c5828ed68b01809f94b88a27673dd') in 0.042813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.376524 seconds.
+  path: Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_cellar_wall_top.fbx
+  artifactKey: Guid(639a1c11576264134a571fd0e4943e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Tavern_Cube/Source/tavern_cellar_wall_top.fbx using Guid(639a1c11576264134a571fd0e4943e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35eab98032d1903aff3e4f71881eac8') in 0.028587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.947037 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/stun_hammer_lvl1.fbx
+  artifactKey: Guid(8b2428f9e81c74eee983bb2548e74587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/stun_hammer_lvl1.fbx using Guid(8b2428f9e81c74eee983bb2548e74587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ee238ce7d9065a3b027b2bd2299ced') in 0.132289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Sandstone/Source/sandstone_pillar_deco_dark.fbx
+  artifactKey: Guid(9aed725fb6ca799498224b14a3d4bc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Sandstone/Source/sandstone_pillar_deco_dark.fbx using Guid(9aed725fb6ca799498224b14a3d4bc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61a7e659e39884711c72a37b75248de') in 0.065086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Sand/Source/pebbles_1.fbx
+  artifactKey: Guid(2beee3bf4ce097848a178da3eb3de5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Sand/Source/pebbles_1.fbx using Guid(2beee3bf4ce097848a178da3eb3de5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b8f643c187ba624400f6fdb03597ce') in 0.044278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/ribbon_small_color1.fbx
+  artifactKey: Guid(1d42f81ec35c54245ad2b99cbbd2bcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/ribbon_small_color1.fbx using Guid(1d42f81ec35c54245ad2b99cbbd2bcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134e39105410f9d9f6cbb1a7342c9b39') in 0.048394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Sandstone/Source/sandstone_pillar_dark.fbx
+  artifactKey: Guid(ca40218565c0eb74bb0d78205be06daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Sandstone/Source/sandstone_pillar_dark.fbx using Guid(ca40218565c0eb74bb0d78205be06daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763eb2d0cc10a2431c127ff0a3626312') in 0.044529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Metal_Spike/Source/spike_cube_2.fbx
+  artifactKey: Guid(fce89bee0a4771b49b805e0dfab91118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Metal_Spike/Source/spike_cube_2.fbx using Guid(fce89bee0a4771b49b805e0dfab91118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a69387d8c0b75c54b9b0ffd9b39320') in 0.045212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_small_color3.fbx
+  artifactKey: Guid(3a0d53d1e1cec49d5a5b40da98e86f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_small_color3.fbx using Guid(3a0d53d1e1cec49d5a5b40da98e86f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e5f2ab3d0218057295bdd86b0451f4') in 0.041460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Barrels/Source/wooden_barrel_2.fbx
+  artifactKey: Guid(147b3ca5a9b6c04449a9324dc53206dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Barrels/Source/wooden_barrel_2.fbx using Guid(147b3ca5a9b6c04449a9324dc53206dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f916cfc58494db507f43aeebbd51ed') in 0.043436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Metal/Source/metal_cube_3.fbx
+  artifactKey: Guid(17278a4cde9917c4c8b68e44056e16a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Metal/Source/metal_cube_3.fbx using Guid(17278a4cde9917c4c8b68e44056e16a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cda0f206332181ddb20b853640ebdfb') in 0.045386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/rail_track_end.fbx
+  artifactKey: Guid(dce409c5e27ac4539a0390f5253f35a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/rail_track_end.fbx using Guid(dce409c5e27ac4539a0390f5253f35a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de83115d9542557d6324fde48203d71') in 0.048176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_1_debris_LOD_group.fbx
+  artifactKey: Guid(bebae64bae58241c3beb52e283085424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_1_debris_LOD_group.fbx using Guid(bebae64bae58241c3beb52e283085424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30264c808174c91a10c3e53e9470e3ce') in 0.044089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_frame_stone_single.fbx
+  artifactKey: Guid(018961ab72e34774497e0deeb1633dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_frame_stone_single.fbx using Guid(018961ab72e34774497e0deeb1633dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0beb89064c2232b238b5ed75c75b87fa') in 0.046070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/philodendron_green_small_LOD_group.fbx
+  artifactKey: Guid(688ff28140a4f4e608c3a480977ae0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/philodendron_green_small_LOD_group.fbx using Guid(688ff28140a4f4e608c3a480977ae0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bb432eb1121ae946cd0a379aaac6a0') in 0.043643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/door_large_face_stone_LOD_group.fbx
+  artifactKey: Guid(bb8f908309f5f4154be6c81bebba16c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/door_large_face_stone_LOD_group.fbx using Guid(bb8f908309f5f4154be6c81bebba16c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf07b12a326db466272df0c1c3f5e36') in 0.058047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/philodendron_orange_large_LOD_group.fbx
+  artifactKey: Guid(76bcae6714ce943ed890027441d68a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/philodendron_orange_large_LOD_group.fbx using Guid(76bcae6714ce943ed890027441d68a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66054413c1eae2cc35c12069a0f10ab') in 0.039943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mining/Source/axe_wood.fbx
+  artifactKey: Guid(22fce8412036960488ea46ac82ea277e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mining/Source/axe_wood.fbx using Guid(22fce8412036960488ea46ac82ea277e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5703df33e6c58ec0186aaf181a22e8a8') in 0.040571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/rail_tracks_turn.fbx
+  artifactKey: Guid(44a2dc970972eaa42a4e8e63485a5213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/rail_tracks_turn.fbx using Guid(44a2dc970972eaa42a4e8e63485a5213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d800dae826c9589f392e5ec8165b4f5') in 0.042294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Brick/Source/brick_black_4.fbx
+  artifactKey: Guid(36fd6da3ce911ed479d6f19d66afd2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Brick/Source/brick_black_4.fbx using Guid(36fd6da3ce911ed479d6f19d66afd2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156d7afdcd4f331c6b48bed18febbf1d') in 0.037066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_rail1_LOD_group.fbx
+  artifactKey: Guid(00396c9410b5e4669b8a3a42e80822b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_rail1_LOD_group.fbx using Guid(00396c9410b5e4669b8a3a42e80822b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a7f4f50b6515ccb87355e9afd4a6c0') in 0.046460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Rock/Source/rock_cube_3.fbx
+  artifactKey: Guid(5d5cf4c864a401049b45a57f8645c88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Rock/Source/rock_cube_3.fbx using Guid(5d5cf4c864a401049b45a57f8645c88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db62b7b7cd89c8121a4249a8b0f5cd42') in 0.036277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Brick/Source/brick_brown_2.fbx
+  artifactKey: Guid(f134c1e54d47b4b419c0c8937970f05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Brick/Source/brick_brown_2.fbx using Guid(f134c1e54d47b4b419c0c8937970f05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29daf7266595d2c29dcb05bcdf131703') in 0.036446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mushrooms/Source/mushroom_4.fbx
+  artifactKey: Guid(f72cab29e6feca5488369c12e2b344c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mushrooms/Source/mushroom_4.fbx using Guid(f72cab29e6feca5488369c12e2b344c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1077044613a105f3cdd531c252f9eff4') in 0.043326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mining/Source/spear_short_metal.fbx
+  artifactKey: Guid(c34ac2964c666134cb1a96f9f3d45585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mining/Source/spear_short_metal.fbx using Guid(c34ac2964c666134cb1a96f9f3d45585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc610cc8a834e19f42326ed1135450d2') in 0.038334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Metal/Source/metal_cube_4.fbx
+  artifactKey: Guid(e9edfce6155f54345ade2e5501db1c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Metal/Source/metal_cube_4.fbx using Guid(e9edfce6155f54345ade2e5501db1c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9252066fe3b47caa90837a689c0dd897') in 0.039515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Stone/Source/stairs_stone_straight.fbx
+  artifactKey: Guid(e0baf42a40b5ec348be5877a32f38262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Stone/Source/stairs_stone_straight.fbx using Guid(e0baf42a40b5ec348be5877a32f38262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5426e7be37ba697e7cc74b80e6eb170a') in 0.043728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_large_color3_ornate.fbx
+  artifactKey: Guid(01146eb82c0ad4ee6bd04f48625a4b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_large_color3_ornate.fbx using Guid(01146eb82c0ad4ee6bd04f48625a4b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d949f023903a1dbb979e541b83f075a') in 0.045328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Barrels/Source/wooden_barrel_3.fbx
+  artifactKey: Guid(9d541d4a7faf4bb4c958dbf4cdf55bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Barrels/Source/wooden_barrel_3.fbx using Guid(9d541d4a7faf4bb4c958dbf4cdf55bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73de0d72e610ed5064ed152aadf3a4a') in 0.045213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_frame_wood_rounded_single.fbx
+  artifactKey: Guid(e5be01f4b1c48594390c41b11ca62da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_frame_wood_rounded_single.fbx using Guid(e5be01f4b1c48594390c41b11ca62da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5ba36294ed4621358796cd2c664669') in 0.048039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/ribbon_small_color2.fbx
+  artifactKey: Guid(52746b2524b644b1eabfce199b3b69d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/ribbon_small_color2.fbx using Guid(52746b2524b644b1eabfce199b3b69d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661aa12e36c5cf469c63283c72bc0cdc') in 0.039362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mining/Source/sword_stone.fbx
+  artifactKey: Guid(20c39007f5292af4fb0f50ebd142abdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mining/Source/sword_stone.fbx using Guid(20c39007f5292af4fb0f50ebd142abdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bb001d5edf6e19c8bc67a084b13be7') in 0.041622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_large_color2_ornate.fbx
+  artifactKey: Guid(be1447dec586a4240a005655f4828a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_large_color2_ornate.fbx using Guid(be1447dec586a4240a005655f4828a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6efc2bfb2eb7edfc6e946c6802ae507') in 0.047447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Sandstone/Source/sandstone_stair_straight.fbx
+  artifactKey: Guid(c987565629ee5df44b32e0cce234ec01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Sandstone/Source/sandstone_stair_straight.fbx using Guid(c987565629ee5df44b32e0cce234ec01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa972db7cd5535b52478d0348f602e2') in 0.043217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/mortar_bullet_lvl4.fbx
+  artifactKey: Guid(ee5425debe56a417cad41d073de54391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/mortar_bullet_lvl4.fbx using Guid(ee5425debe56a417cad41d073de54391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4637cffbbfea507bcbf6c4b0a99c8e17') in 0.047825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/mortar_bullet_lvl1.fbx
+  artifactKey: Guid(76a5acc758aa6401aa52c52bf069aec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/mortar_bullet_lvl1.fbx using Guid(76a5acc758aa6401aa52c52bf069aec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13a34a717fa92f08cb44f26b1456e0d') in 0.046579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mining/Source/spear_short_stone.fbx
+  artifactKey: Guid(5309ca01397ecd04c95a924e14ebd1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mining/Source/spear_short_stone.fbx using Guid(5309ca01397ecd04c95a924e14ebd1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e4fe6152c32b806b98fb8f679168dd') in 0.057108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_metal_rounded_left.fbx
+  artifactKey: Guid(7e7101da048482f48bc9f49ab4d5c045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_metal_rounded_left.fbx using Guid(7e7101da048482f48bc9f49ab4d5c045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d646f15e57297b9b4c8a15663fc576') in 0.091241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_rail2_LOD_group.fbx
+  artifactKey: Guid(ad68557490292498bb3d84844423e8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_rail2_LOD_group.fbx using Guid(ad68557490292498bb3d84844423e8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd342c4e129b9009a4f213e6c132983de') in 0.046766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Pipes/Source/pipe_straight_2.fbx
+  artifactKey: Guid(f75365d39ce92a94d8245ba4828c509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Pipes/Source/pipe_straight_2.fbx using Guid(f75365d39ce92a94d8245ba4828c509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512ee8215cd21682d8e94fa0d3676ea8') in 0.046548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Rock/Source/rock_cube_2.fbx
+  artifactKey: Guid(e0a6b000922532b4089c29bd2142e8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Rock/Source/rock_cube_2.fbx using Guid(e0a6b000922532b4089c29bd2142e8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd330271fe15e72e9b719155e5de1fca1') in 0.049038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Metal/Source/metal_cube_2.fbx
+  artifactKey: Guid(8ed438e495734c64480d2dbabb6445db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Metal/Source/metal_cube_2.fbx using Guid(8ed438e495734c64480d2dbabb6445db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00274182fd7fcdc4bd466d95a20149c') in 0.048154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Sandstone/Source/sand_top1.fbx
+  artifactKey: Guid(f6fe5b8f5165099479f2982781ed864c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Sandstone/Source/sand_top1.fbx using Guid(f6fe5b8f5165099479f2982781ed864c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacf579195ec719220af4c10199053fb') in 0.047307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mining/Source/metal_bar_block.fbx
+  artifactKey: Guid(a11836add3f82c74e9a89468092dc92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mining/Source/metal_bar_block.fbx using Guid(a11836add3f82c74e9a89468092dc92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218559298e891b785ccf26861d677618') in 0.045964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_stone_left.fbx
+  artifactKey: Guid(1b6c0e5b8833a1d499bad0926f3a18eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_stone_left.fbx using Guid(1b6c0e5b8833a1d499bad0926f3a18eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36827c155241a27b72160a51a7fe147e') in 0.077041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_metal_rounded_right.fbx
+  artifactKey: Guid(c848e512317f8de48b7c96d09f83c198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_metal_rounded_right.fbx using Guid(c848e512317f8de48b7c96d09f83c198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b31a0dd7ba451cd2fd98fe9883a616') in 0.074538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Sandstone/Source/sandstone_bricks.fbx
+  artifactKey: Guid(7063876f36584f947a1c0fb85b5be730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Sandstone/Source/sandstone_bricks.fbx using Guid(7063876f36584f947a1c0fb85b5be730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62080b69d00bafe66b6c74264b343cf7') in 0.040966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_metal_rounded_top.fbx
+  artifactKey: Guid(ddea423349203a74fb62e2fcefdfd499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_metal_rounded_top.fbx using Guid(ddea423349203a74fb62e2fcefdfd499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320726a23c4f4f47961b3243f45baf9d') in 0.036811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_wood_right.fbx
+  artifactKey: Guid(5673aea8691bfb149bb2ff95d84f747f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_wood_right.fbx using Guid(5673aea8691bfb149bb2ff95d84f747f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292b55f0d0e48e659d1fb8f6d842ee8a') in 0.080631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/lotus_leaf_small_LOD_group.fbx
+  artifactKey: Guid(6088c0ad8220e4f59b5e26c58dff07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/lotus_leaf_small_LOD_group.fbx using Guid(6088c0ad8220e4f59b5e26c58dff07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a7cf7d4578c9d42d3ec46238f7e8b4') in 0.037406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_small_color1.fbx
+  artifactKey: Guid(f55f59f7ef0c542419ecbcba13ff987b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_small_color1.fbx using Guid(f55f59f7ef0c542419ecbcba13ff987b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0168c8fce2af2ee117f77ec47c360d8') in 0.041155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/rail_tracks_scaffolding.fbx
+  artifactKey: Guid(7c7f59ac2a2145440a3d65c77089fd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/rail_tracks_scaffolding.fbx using Guid(7c7f59ac2a2145440a3d65c77089fd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0767d7e134bc08a878f4ccc84ff3fcd9') in 0.036960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/rocketlauncher_head_lvl4.fbx
+  artifactKey: Guid(700436447b8a14e7c9287a40b34a0794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/rocketlauncher_head_lvl4.fbx using Guid(700436447b8a14e7c9287a40b34a0794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58517c1b47d9053b950f958ee8753af2') in 0.033486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Pipes/Source/pipe_X.fbx
+  artifactKey: Guid(5e9ac702f564ee548a68a1bc5568f906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Pipes/Source/pipe_X.fbx using Guid(5e9ac702f564ee548a68a1bc5568f906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f4e2e20f8d4f90b37952c5954e4276') in 0.036047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/presi_large_empty_color1.fbx
+  artifactKey: Guid(c645639b09ce24d3a8d5d215b7be99ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/presi_large_empty_color1.fbx using Guid(c645639b09ce24d3a8d5d215b7be99ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f2a24cefb726e9511a88d9c298dc00') in 0.052970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/ribbon_small_color3.fbx
+  artifactKey: Guid(505e546d49ec949949151c5fdbfd7883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/ribbon_small_color3.fbx using Guid(505e546d49ec949949151c5fdbfd7883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c5ba97571fd3c34736cd2f443bb2d1') in 0.040089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Dirt/Source/dirt_cube_2.fbx
+  artifactKey: Guid(ae2c87e3d09c70849b410c1e53c82308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Dirt/Source/dirt_cube_2.fbx using Guid(ae2c87e3d09c70849b410c1e53c82308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5508c91e5ae37e81f5b8087e2100325f') in 0.041433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Lava/Source/lava_cubes_5.fbx
+  artifactKey: Guid(977ee00416273b342be755d46d2bd5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Lava/Source/lava_cubes_5.fbx using Guid(977ee00416273b342be755d46d2bd5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ef14a62fd38c2b395764860f954ccf') in 0.043854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mining/Source/metal_pile.fbx
+  artifactKey: Guid(8f5750bf497725b4085f1c497eb46e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mining/Source/metal_pile.fbx using Guid(8f5750bf497725b4085f1c497eb46e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a1276f694f17893cc4c32b2bd14297') in 0.044055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_handles.fbx
+  artifactKey: Guid(8aed4ed933b854149b81dfab10d97cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_handles.fbx using Guid(8aed4ed933b854149b81dfab10d97cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd06447a1bdba2c56f45e0f278888e7') in 0.044800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/door_large_crown_stone_LOD_group.fbx
+  artifactKey: Guid(ab9d9df3195bb4a0f8162fd18c21d281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/door_large_crown_stone_LOD_group.fbx using Guid(ab9d9df3195bb4a0f8162fd18c21d281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2aaaee253fafc9d6c6ef5baa197bae5') in 0.044765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_large_color4.fbx
+  artifactKey: Guid(50188dcfa4ec3460baa1a427f2f91a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_large_color4.fbx using Guid(50188dcfa4ec3460baa1a427f2f91a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f15129e026e660aec9228b82e338e4') in 0.039985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Chests/Source/chest_gold_LOD_Group.fbx
+  artifactKey: Guid(a4ee79879bcb54db3881e67b31628302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Chests/Source/chest_gold_LOD_Group.fbx using Guid(a4ee79879bcb54db3881e67b31628302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e5290241cdd401d2babc5297a6ae52') in 0.050255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/minecart.fbx
+  artifactKey: Guid(28e5adff75bbfd64bbef2f02a67d18fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/minecart.fbx using Guid(28e5adff75bbfd64bbef2f02a67d18fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c057fb85fa17413b4dd92d6d16a4657') in 0.066431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Stone/Source/stone_cube_6.fbx
+  artifactKey: Guid(8804f4a953a91064ab679e9b3c7ecb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Stone/Source/stone_cube_6.fbx using Guid(8804f4a953a91064ab679e9b3c7ecb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f4c782e00fefa8cc4ccaff14680623') in 0.039566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/presi_small_empty_color1.fbx
+  artifactKey: Guid(192afdb0326f84c13a3bad2658bd0ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/presi_small_empty_color1.fbx using Guid(192afdb0326f84c13a3bad2658bd0ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536ae502339a6982cdd04383fa400ad7') in 0.062714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_frame_stone_rounded_double.fbx
+  artifactKey: Guid(9ccde1136eaee954da3fdbac9d651553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_frame_stone_rounded_double.fbx using Guid(9ccde1136eaee954da3fdbac9d651553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b73f527adbcfd17818cb68035ad9d9') in 0.040573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mining/Source/pickaxe_stone.fbx
+  artifactKey: Guid(713686741852ccd4b979bc86f14f69fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mining/Source/pickaxe_stone.fbx using Guid(713686741852ccd4b979bc86f14f69fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464895e422fc2287bf14b2ecd92f8cdb') in 0.040755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/rail_tracks_scaffolding_turn.fbx
+  artifactKey: Guid(831e1e9481385494cbf182c5ec512e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/rail_tracks_scaffolding_turn.fbx using Guid(831e1e9481385494cbf182c5ec512e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467ae87ab3cfed31306e539254a4e4af') in 0.038807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/ore_pile_ruby.fbx
+  artifactKey: Guid(748acd473653a4247b1cd44037d85ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/ore_pile_ruby.fbx using Guid(748acd473653a4247b1cd44037d85ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0d35c798f520e1a1bd511a9783822b') in 0.037000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/gun_head_lvl3.fbx
+  artifactKey: Guid(677dd6b1210614098b61f8c8836c71d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/gun_head_lvl3.fbx using Guid(677dd6b1210614098b61f8c8836c71d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f60cc68062c4a96261e2b0a00e2ed2e') in 0.056609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mushrooms/Source/mushroom_1.fbx
+  artifactKey: Guid(00f83a6304894c54abb680bf34d4b43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mushrooms/Source/mushroom_1.fbx using Guid(00f83a6304894c54abb680bf34d4b43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315a453a1bdd7ddbd3100398d126c5bb') in 0.037647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_head_LOD_group.fbx
+  artifactKey: Guid(d860de90eeaca472188eb6d5bdfa1cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_head_LOD_group.fbx using Guid(d860de90eeaca472188eb6d5bdfa1cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759ff6dd3433958fb53994ea39d80022') in 0.043080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/oval_leave_plant_plain_LOD_group.fbx
+  artifactKey: Guid(fef4ecb4bc93e4162810cbe541d01a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/oval_leave_plant_plain_LOD_group.fbx using Guid(fef4ecb4bc93e4162810cbe541d01a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0846994817ac1ec2752b2c6e77e32a2') in 0.038758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mining/Source/arrow_stone.fbx
+  artifactKey: Guid(1cd403cfbaa70984ca731099f522d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mining/Source/arrow_stone.fbx using Guid(1cd403cfbaa70984ca731099f522d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7c8c25af1283800ea21148e1fc35f7') in 0.038995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/rail_tracks_tile_up_half.fbx
+  artifactKey: Guid(3f15da97bd78df849b6fb350dfc6d675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/rail_tracks_tile_up_half.fbx using Guid(3f15da97bd78df849b6fb350dfc6d675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903ff4df005064aa4a01cb81d9e7d52f') in 0.039204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_small_color2.fbx
+  artifactKey: Guid(a5de7f832781e4e6c968bdea0ad04a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_small_color2.fbx using Guid(a5de7f832781e4e6c968bdea0ad04a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b2f4ea9e5da3d59cdae1a97447fc4f') in 0.039891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/stun_hammer_lvl2.fbx
+  artifactKey: Guid(f68164295aa6f4555933a86f0e70670a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/stun_hammer_lvl2.fbx using Guid(f68164295aa6f4555933a86f0e70670a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a2a0c03a94d2e1d6fabebbf2d3d40d') in 0.054194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/rail_tracks_cross.fbx
+  artifactKey: Guid(cb92e8560c5fc904b884c864b01f6e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mine_Rail/Source/rail_tracks_cross.fbx using Guid(cb92e8560c5fc904b884c864b01f6e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1104d2e7e96d44d61b58bbd54e0965') in 0.038502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Barrels/Source/wooden_barrel_2_destructible.fbx
+  artifactKey: Guid(008a277d7e3194043866b42a5458f54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Barrels/Source/wooden_barrel_2_destructible.fbx using Guid(008a277d7e3194043866b42a5458f54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4164101e200996f7f9bb784e4f23d82') in 0.094416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/presi_large_color4.fbx
+  artifactKey: Guid(4acdca88139014ae49a86f9d84379831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/presi_large_color4.fbx using Guid(4acdca88139014ae49a86f9d84379831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2702ef06336fad2a894e9f3fc44f70') in 0.033795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/presi_small_empty_color4.fbx
+  artifactKey: Guid(26d290d33305948f2b24ea81100a0c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/presi_small_empty_color4.fbx using Guid(26d290d33305948f2b24ea81100a0c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64b5672d00b1df70a453fbb0c779167') in 0.056640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Mining/Source/hammer_metal.fbx
+  artifactKey: Guid(5ab5afa9b0d813549a2e63cad65f1772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Mining/Source/hammer_metal.fbx using Guid(5ab5afa9b0d813549a2e63cad65f1772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a72a84ecb6e3bee6b8c04b9d57d4b8') in 0.037754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/rail1_1_stone1_LOD_group.fbx
+  artifactKey: Guid(752790c5466e14173a9c6de5aabdc54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/rail1_1_stone1_LOD_group.fbx using Guid(752790c5466e14173a9c6de5aabdc54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6582bfd9e0993162fb013d365af42f6d') in 0.036473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Chests/Source/chest_wood_LOD_Group.fbx
+  artifactKey: Guid(d87251af1a7fa4125b6d5aa1b937c28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Chests/Source/chest_wood_LOD_Group.fbx using Guid(d87251af1a7fa4125b6d5aa1b937c28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ce17056803501cc848a5427b87ce01') in 0.047515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_medium_color2.fbx
+  artifactKey: Guid(9857abce78bb34915a43d8a69426d280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Christmas/Source/bauble_medium_color2.fbx using Guid(9857abce78bb34915a43d8a69426d280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bc5d0ed1426fbe5d19aa276c30474b') in 0.034869 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
