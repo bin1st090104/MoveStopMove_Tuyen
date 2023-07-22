@@ -46,6 +46,7 @@ public class Character : MonoBehaviour
     {
         curWeapon = MySingleton<MyPool>.Instance.Pop(curBullet);
         curWeapon.transform.SetParent(transform);
+        curWeapon.transform.localEulerAngles = Vector3.zero;
         curWeapon.transform.localPosition = new Vector3(0f, 2.5f, 0);
     }
 

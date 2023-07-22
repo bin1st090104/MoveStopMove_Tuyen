@@ -364,6 +364,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Documents/Bitgem/Cube_World/_Materials/URP_Multicolor_Material/Multicolor shader related/Editor/TextureConverter.cs"
+"Assets/Joystick Pack/Scripts/Editor/DynamicJoystickEditor.cs"
+"Assets/Joystick Pack/Scripts/Editor/FloatingJoystickEditor.cs"
+"Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs"
+"Assets/Joystick Pack/Scripts/Editor/VariableJoystickEditor.cs"
 -langversion:9.0
 
 /deterministic
