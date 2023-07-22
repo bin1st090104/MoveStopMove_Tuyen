@@ -158,6 +158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  originalBullet: 0
 --- !u!4 &376701914
 Transform:
   m_ObjectHideFlags: 0
@@ -185,7 +186,7 @@ GameObject:
   - component: {fileID: 574699772}
   - component: {fileID: 574699771}
   m_Layer: 0
-  m_Name: MyWeaponPool
+  m_Name: MyPool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -203,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e15febab40b4c9409d3b1802a156741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 2421702500046389338, guid: 32244d54ddcb03546acd22b998e1ef5b, type: 3}
+  objectData: {fileID: 11400000, guid: 5c76779e9f0a97a4abaa2080de30b71d, type: 2}
 --- !u!4 &574699772
 Transform:
   m_ObjectHideFlags: 0
@@ -367,7 +368,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -390,14 +391,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
+  m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,7 +412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 376701912}
-  offset: {x: 0, y: 10, z: -20}
+  offset: {x: 0, y: 10, z: -35}
 --- !u!1 &1554354302
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +526,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 376701914}
     m_Modifications:
+    - target: {fileID: 2492993852531751502, guid: 03fc5ba4c86c90b40933902fa642ce9e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 5094575709925600193, guid: 03fc5ba4c86c90b40933902fa642ce9e, type: 3}
       propertyPath: m_RootOrder
       value: 0

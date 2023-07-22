@@ -6,22 +6,27 @@ public class Character : MonoBehaviour
 {
     [SerializeField] protected float speed;
     protected bool hasWeapon = true;
-    private GameObject currentWeapon;
+    protected GameObject curWeapon;
+    protected Bullet curBullet;
 
+    public Bullet CurBullet { get { return curBullet; } set { curBullet = value; } }
     protected void Shoot()
     {
         if (!hasWeapon)
         {
             return;
         }
-        Vector3 target = new Vector3(Random.Range(-25, -25), 2f + 0.25f, Random.Range(-25, 25));
-        currentWeapon.GetComponent<Weapon>().Shoot(target);
+        float x = Random.Range(-25f, 25f);
+        float z = Random.Range(-25f, 25f);
+        Vector3 target = new Vector3(x, 2f + 0.25f, z);
+        transform.LookAt(new Vector3(target.x, transform.position.y, target.z));
+        curWeapon.GetComponent<Weapon>().Shoot(target);
         hasWeapon = false;
     }
 
     protected void SetStateToStop()
     {
-        
+
     }
 
     protected void SetStateToMove()
@@ -35,24 +40,13 @@ public class Character : MonoBehaviour
 
     private void Awake()
     {
-       
+        
     }
     protected void GetNewWeapon()
     {
-        currentWeapon = MySingleton<MyWeaponPool>.Instance.Pop();
-        currentWeapon.transform.SetParent(transform);
-        currentWeapon.transform.localPosition = new Vector3(0f, 2.5f, 0);
+        curWeapon = MySingleton<MyPool>.Instance.Pop(curBullet);
+        curWeapon.transform.SetParent(transform);
+        curWeapon.transform.localPosition = new Vector3(0f, 2.5f, 0);
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

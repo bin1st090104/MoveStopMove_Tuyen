@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Player : Character
 {
+    [SerializeField] private Bullet originalBullet;
     // Start is called before the first frame update
     void Start()
     {
+        base.curBullet = originalBullet;
         base.GetNewWeapon();
     }
 
@@ -26,21 +28,22 @@ public class Player : Character
         if (Input.GetMouseButton(0))
         {
             Vector3 direct = Input.mousePosition - rootMousePosition;
-            if(direct != Vector3.zero)
+            if (direct != Vector3.zero)
             {
                 direct.z = direct.y;
-                direct.y = 0;
+                direct.y = 0f;
                 MoveTo(direct);
                 base.SetStateToMove();
             }
-            else
-            {
-                base.Shoot();
-            }
+        }
+        else
+        {
+            base.Shoot();
         }
     }
     void MoveTo(Vector3 direct)
     {
+        transform.LookAt(direct + Vector3.up * transform.position.y);
         transform.position = Vector3.MoveTowards(transform.position, transform.position + direct, base.speed * Time.deltaTime);
     }
 }
