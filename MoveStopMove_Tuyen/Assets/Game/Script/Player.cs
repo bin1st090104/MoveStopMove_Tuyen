@@ -5,11 +5,16 @@ using UnityEngine;
 public class Player : Character
 {
     [SerializeField] private Bullet originalBullet;
-    // Start is called before the first frame update
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(name + " of " + (transform.parent == null ? "null" : transform.parent.name) + "  " + other.name + " of " + (other.gameObject.transform.parent == null ? "null" : other.gameObject.transform.parent.name));
+    }
+
     void Start()
     {
         base.curBullet = originalBullet;
-        base.GetNewWeapon();
+        base.rangeAttack.SetSize(base.originalRangeAttackSize);
     }
 
     // Update is called once per frame

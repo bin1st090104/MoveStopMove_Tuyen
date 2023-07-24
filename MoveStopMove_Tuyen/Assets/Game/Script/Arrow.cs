@@ -10,19 +10,18 @@ public class Arrow : Weapon
         transform.LookAt(new Vector3(destinantion.x, transform.position.y, destinantion.z));
         while (true)
         {
-            Debug.Log(Vector3.Distance(destinantion, transform.position));
+            //Debug.Log(Vector3.Distance(destinantion, transform.position));
             if (Vector3.Distance(destinantion, transform.position) < 1e-3)
             {
-                MySingleton<MyPool>.Instance.Push(gameObject, bullet);
-                Debug.Log("-->Push");
-                yield break;
+                break;
             }
             else
             {
                 MoveTo(destinantion);
-                Debug.Log("-->Move");
+                //Debug.Log("-->Move");
                 yield return null;
             }
         }
+        MySingleton<MyWeaponPool>.Instance.Push(gameObject, base.bullet);
     }
 }

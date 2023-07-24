@@ -10,7 +10,6 @@ public abstract class Weapon : MonoBehaviour
     public void MoveTo(Vector3 destinantion)
     {
         transform.position = Vector3.MoveTowards(transform.position, destinantion, speed * Time.deltaTime);
-
     }
 
     public abstract IEnumerator ShootProcessing(Vector3 destinantion);

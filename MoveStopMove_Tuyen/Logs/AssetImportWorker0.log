@@ -15,7 +15,7 @@ E:/github/MoveStopMove_Tuyen/MoveStopMove_Tuyen
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63017
+63195
 Successfully changed project path to: E:/github/MoveStopMove_Tuyen/MoveStopMove_Tuyen
 E:/github/MoveStopMove_Tuyen/MoveStopMove_Tuyen
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/github/MoveStopMove_Tuyen/MoveStopMove_Tuyen
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [47784] Host "[IP] 192.168.1.73 [Port] 0 [Flags] 2 [Guid] 862216358 [EditorId] 862216358 [Version] 1048832 [Id] WindowsEditor(7,bin1st090104) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16548] Host "[IP] 192.168.0.55 [Port] 0 [Flags] 2 [Guid] 2907930337 [EditorId] 2907930337 [Version] 1048832 [Id] WindowsEditor(7,bin1st090104) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [47784] Host "[IP] 192.168.1.73 [Port] 0 [Flags] 2 [Guid] 862216358 [EditorId] 862216358 [Version] 1048832 [Id] WindowsEditor(7,bin1st090104) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16548] Host "[IP] 192.168.0.55 [Port] 0 [Flags] 2 [Guid] 2907930337 [EditorId] 2907930337 [Version] 1048832 [Id] WindowsEditor(7,bin1st090104) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 62.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path E:/unity/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -67,96 +67,96 @@ Initialize mono
 Mono path[0] = 'E:/unity/2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'E:/unity/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/unity/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/unity/2021.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/unity/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/unity/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001589 seconds.
+Registered in 0.001598 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 213 ms
+Android Extension - Scanning For ADB Devices 230 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.744 seconds
 Domain Reload Profiling:
 	ReloadAssembly (744ms)
-		BeginReloadAssembly (66ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (611ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (609ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (85ms)
+			SetupTypeCache (87ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (466ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (464ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (281ms)
+				InitializePlatformSupportModulesInManaged (297ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
+				RefreshPlugins (65ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002151 seconds.
+Registered in 0.002183 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\github\MoveStopMove_Tuyen\MoveStopMove_Tuyen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\github\MoveStopMove_Tuyen\MoveStopMove_Tuyen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.775 seconds
+- Completed reload, in  0.747 seconds
 Domain Reload Profiling:
-	ReloadAssembly (776ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (748ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (615ms)
-			LoadAssemblies (59ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (260ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (247ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (49.2 MB). Loaded Objects now: 3555.
-Memory consumption went from 190.4 MB to 141.2 MB.
-Total: 4.230400 ms (FindLiveObjects: 0.241000 ms CreateObjectMapping: 0.096200 ms MarkObjects: 3.822100 ms  DeleteObjects: 0.070100 ms)
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (284.7 KB). Loaded Objects now: 3566.
+Memory consumption went from 190.8 MB to 190.5 MB.
+Total: 3.174000 ms (FindLiveObjects: 0.245400 ms CreateObjectMapping: 0.164300 ms MarkObjects: 2.689900 ms  DeleteObjects: 0.073000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,327 +171,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 820187.077469 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/cauldron_animated_LOD_group.fbx
-  artifactKey: Guid(3a79080d1844c429a9a92486183ba770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/cauldron_animated_LOD_group.fbx using Guid(3a79080d1844c429a9a92486183ba770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c834054fe311b34d50f356679df3d840') in 0.241687 seconds 
+  Time since last request: 1010547.630373 seconds.
+  path: Assets/Game/Prefab/Boomerang.prefab
+  artifactKey: Guid(c1882878035aacf4b9f751c0d8ec6b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefab/Boomerang.prefab using Guid(c1882878035aacf4b9f751c0d8ec6b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4874022b1e60fb609e45c58a620722ab') in 0.096370 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.656751 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_3_half_torch_LOD_group.fbx
-  artifactKey: Guid(d16010219658840ecba6b6dacb43b168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_3_half_torch_LOD_group.fbx using Guid(d16010219658840ecba6b6dacb43b168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061608b66bba0e7b0fbe3ec4261a0900') in 0.076988 seconds 
+  Time since last request: 1.685192 seconds.
+  path: Assets/Game/Prefab/Arrow.prefab
+  artifactKey: Guid(2c9f4c787e6ccd24596afc067d9ea8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefab/Arrow.prefab using Guid(2c9f4c787e6ccd24596afc067d9ea8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a105bedeaa2f1145b55176595cf7253') in 0.018580 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.113028 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/big_tree_foliage_group_LOD_group.fbx
-  artifactKey: Guid(7889726e304164658ba2099ef39fa5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/big_tree_foliage_group_LOD_group.fbx using Guid(7889726e304164658ba2099ef39fa5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7a7026e31cf06ad4ee129cd519e4f5') in 0.080885 seconds 
+  Time since last request: 2.705957 seconds.
+  path: Assets/Game/Prefab/Boomerang.prefab
+  artifactKey: Guid(c1882878035aacf4b9f751c0d8ec6b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefab/Boomerang.prefab using Guid(c1882878035aacf4b9f751c0d8ec6b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdaabb4a550b8d8ae1bef9c6bf843cb3') in 0.009546 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.811860 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_rail1_LOD_group.fbx
-  artifactKey: Guid(00396c9410b5e4669b8a3a42e80822b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_rail1_LOD_group.fbx using Guid(00396c9410b5e4669b8a3a42e80822b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fdbb60953d306be66b3f8929b956d3') in 0.043547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.271614 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_rail2_LOD_group.fbx
-  artifactKey: Guid(ad68557490292498bb3d84844423e8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_rail2_LOD_group.fbx using Guid(ad68557490292498bb3d84844423e8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72905cbfc896ef419b9c252f0b7fb70') in 0.046588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.177575 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_2_tiny_LOD_group.fbx
-  artifactKey: Guid(24745db8c454a4ba6a7a7e96e1e7e040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_2_tiny_LOD_group.fbx using Guid(24745db8c454a4ba6a7a7e96e1e7e040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ae20a9bd3df42505aec98f1ff6358d') in 0.060094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_3_half_dark_LOD_group.fbx
-  artifactKey: Guid(ff501d714251d4a04b0d6884af1e6407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_3_half_dark_LOD_group.fbx using Guid(ff501d714251d4a04b0d6884af1e6407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261d3d01ea04f9248206ee342aecfa81') in 0.067229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.269153 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_3_half_plinth_LOD_group.fbx
-  artifactKey: Guid(736f1892abd53498780b78b377b589ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_3_half_plinth_LOD_group.fbx using Guid(736f1892abd53498780b78b377b589ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09aa54c16a58984b37ed37850cc8c57') in 0.056808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.025357 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_4_debris_LOD_group.fbx
-  artifactKey: Guid(f6bd789015c6a45f98c4b9df16176b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_4_debris_LOD_group.fbx using Guid(f6bd789015c6a45f98c4b9df16176b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4736bde4d2fa35702e7018a4b5cb389') in 0.044178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.353994 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_5_LOD_group.fbx
-  artifactKey: Guid(551f6ccaa89604faea6006c2f7150833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_5_LOD_group.fbx using Guid(551f6ccaa89604faea6006c2f7150833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272cb56b81298f886e61b2518349d5de') in 0.047218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.019144 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_7_LOD_group.fbx
-  artifactKey: Guid(d8c80ab52c62c4fde87da26935569dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_7_LOD_group.fbx using Guid(d8c80ab52c62c4fde87da26935569dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9392d7e4679add7d2bee333621a72d77') in 0.049290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.436358 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_9_LOD_group.fbx
-  artifactKey: Guid(cea3046074c274d4c8b03842a8ddea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_9_LOD_group.fbx using Guid(cea3046074c274d4c8b03842a8ddea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ddc7a74f4fe55033f582b58213d92b') in 0.041918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_head_LOD_group.fbx
-  artifactKey: Guid(d860de90eeaca472188eb6d5bdfa1cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone1_head_LOD_group.fbx using Guid(d860de90eeaca472188eb6d5bdfa1cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03b2ca32e86d96653a8ab0be9e1bedb') in 0.048002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone_large2_LOD_group.fbx
-  artifactKey: Guid(ece68b38520f6489599a44dab7e2a725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone_large2_LOD_group.fbx using Guid(ece68b38520f6489599a44dab7e2a725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00367e092cf1f1a5a24e3955ccc78ab') in 0.047288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.291673 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone_large4_LOD_group.fbx
-  artifactKey: Guid(e8aab347e04b847a2840677334d3265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/block_stone_large4_LOD_group.fbx using Guid(e8aab347e04b847a2840677334d3265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b2cd0ea69b73aa3ed32ac595f8a935') in 0.057493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.706188 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/bone_jaw_LOD_group.fbx
-  artifactKey: Guid(9bdf94f7ad23e4cdd9bc659ee5d83d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/bone_jaw_LOD_group.fbx using Guid(9bdf94f7ad23e4cdd9bc659ee5d83d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c957155119b881b3809b7692eab912e5') in 0.055485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/bone_pelvis_LOD_group.fbx
-  artifactKey: Guid(bf4b969f4c79f42d59a8e1b5444671f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/bone_pelvis_LOD_group.fbx using Guid(bf4b969f4c79f42d59a8e1b5444671f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b315b2cf160c86a3399c5edd313624ab') in 0.053399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.203653 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/bone_ribcage_LOD_group.fbx
-  artifactKey: Guid(96ab8f448a5e34680a71defdb076aefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/bone_ribcage_LOD_group.fbx using Guid(96ab8f448a5e34680a71defdb076aefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8da9f3f5c157f39b5ad9da4e820674e') in 0.083319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.658348 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/cauldron_LOD_group.fbx
-  artifactKey: Guid(96787b1d3e0c8418e84c89b175465159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/cauldron_LOD_group.fbx using Guid(96787b1d3e0c8418e84c89b175465159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6047a8b4edd63535cffb9a6cf111b7c6') in 0.041126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.976291 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/dandelion_double_balls_LOD_group.fbx
-  artifactKey: Guid(01f7ae72e38b74294be93305cdc17ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/dandelion_double_balls_LOD_group.fbx using Guid(01f7ae72e38b74294be93305cdc17ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f9fc723036f87362e5eb6099c29488') in 0.050111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/dandelion_leaves_LOD_group.fbx
-  artifactKey: Guid(88a953d5b1c5f426f961548d531ca381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/dandelion_leaves_LOD_group.fbx using Guid(88a953d5b1c5f426f961548d531ca381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b78bd5922c030c3ef035a9f3fc9b00') in 0.056514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.302607 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_stone_rounded_top.fbx
-  artifactKey: Guid(599272cdcd01a8c44b7b90c4a22fd7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_stone_rounded_top.fbx using Guid(599272cdcd01a8c44b7b90c4a22fd7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d453ee632242122fc60168e3900da1') in 0.060545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_wood_rounded_double_top.fbx
-  artifactKey: Guid(6b5baa75c00a5934a8a0c47e9492c2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_wood_rounded_double_top.fbx using Guid(6b5baa75c00a5934a8a0c47e9492c2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e240a603b05aae3ec8ae4e748d05dcbd') in 0.057550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_wood_rounded.fbx
-  artifactKey: Guid(0c2040d98f0eb0e45b3aa2b8d2c42f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_wood_rounded.fbx using Guid(0c2040d98f0eb0e45b3aa2b8d2c42f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24fe98596e7a1d6877b2e8db9228317') in 0.095069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.022091 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_wood_rounded_left.fbx
-  artifactKey: Guid(359c09bbabcc08444bf2df676dfa3670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_wood_rounded_left.fbx using Guid(359c09bbabcc08444bf2df676dfa3670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caf75aa7466da5cbbfbca4c53af41c4') in 0.100141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.221507 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Doors/Source/door_wood_rounded_top.fbx
-  artifactKey: Guid(2de10c24f7643b4409af364c51231334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Doors/Source/door_wood_rounded_top.fbx using Guid(2de10c24f7643b4409af364c51231334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2bde63305effdf0cd0b2832f8aca25') in 0.038861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/drum_stick_LOD_group.fbx
-  artifactKey: Guid(54da98707d24c4bcfa54e32ba8463ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/drum_stick_LOD_group.fbx using Guid(54da98707d24c4bcfa54e32ba8463ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cc237bfd4845b762ce0ec626b5b565') in 0.046249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.331110 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Wood/Source/fence_pole_wood.fbx
-  artifactKey: Guid(6c3a3accd452cab428322abe60201ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Wood/Source/fence_pole_wood.fbx using Guid(6c3a3accd452cab428322abe60201ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a9f880e325a8c19051fac2e00a5487') in 0.043019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/fern_tree_small_LOD_group.fbx
-  artifactKey: Guid(4bba31bcd6bb5452795f8478721d5076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/fern_tree_small_LOD_group.fbx using Guid(4bba31bcd6bb5452795f8478721d5076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a27e21e4bd3bf63644d21bf01e402a9') in 0.055262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.490238 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/flower_double_purple_LOD_group.fbx
-  artifactKey: Guid(930d8977648d74fe1a324b29b1912ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/flower_double_purple_LOD_group.fbx using Guid(930d8977648d74fe1a324b29b1912ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663b9c43eebd28aa6d96ee82834e8fcd') in 0.039169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.621004 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Stone/Source/flower_red.fbx
-  artifactKey: Guid(90c3df1d386b34c48bb4fc167a04c717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Stone/Source/flower_red.fbx using Guid(90c3df1d386b34c48bb4fc167a04c717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b3b43db75d9267c87e1eef3fbdd419') in 0.037191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Stone/Source/flower_red_low.fbx
-  artifactKey: Guid(a2ce0dc416cbb5e4d804172246e03ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Stone/Source/flower_red_low.fbx using Guid(a2ce0dc416cbb5e4d804172246e03ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a926bc941306979e3d48698a1ed759') in 0.038601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.043384 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/flower_single_red_LOD_group.fbx
-  artifactKey: Guid(290b748e57cea4a56b200f72106c0bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/flower_single_red_LOD_group.fbx using Guid(290b748e57cea4a56b200f72106c0bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2101550ecb54fbc54939ef7c11f5070d') in 0.053917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/flower_single_yellow_LOD_group.fbx
-  artifactKey: Guid(d1b40d375a935451080be0dac7ccf9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/flower_single_yellow_LOD_group.fbx using Guid(d1b40d375a935451080be0dac7ccf9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed46f935b6c716502cf3876b7bf9413a') in 0.050952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/flower_trio_white_LOD_group.fbx
-  artifactKey: Guid(749e9d969331b45478d18965a0e3ba9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/flower_trio_white_LOD_group.fbx using Guid(749e9d969331b45478d18965a0e3ba9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245ee368f5199d5aeb32f6b133932e3b') in 0.057785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.672322 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Stone/Source/flower_yellow.fbx
-  artifactKey: Guid(90c9843dfe07fa243bee16b8979277bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Stone/Source/flower_yellow.fbx using Guid(90c9843dfe07fa243bee16b8979277bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9852c7c031865b373038e13bd000cc7a') in 0.035309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014838 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/generator_head_lvl1.fbx
-  artifactKey: Guid(5ee1aa8b050564ff08aaf23473196e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/generator_head_lvl1.fbx using Guid(5ee1aa8b050564ff08aaf23473196e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ad1958e60d9903e51f70b94b4c72d0') in 0.038651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.910799 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/generator_head_lvl3.fbx
-  artifactKey: Guid(0e2a64aaec187450a9838c3a3553c717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Tower_Defense/Source/generator_head_lvl3.fbx using Guid(0e2a64aaec187450a9838c3a3553c717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce0bce21f393b78b50f2db0c1e27870') in 0.039100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Mining/Source/gold_bar.fbx
-  artifactKey: Guid(b6a73df4d1427bd4cbce6ed100bc699b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Mining/Source/gold_bar.fbx using Guid(b6a73df4d1427bd4cbce6ed100bc699b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b23474fd1175931929fad3a5cc2f9d') in 0.042290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.018446 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Mining/Source/gold_ore_block_2.fbx
-  artifactKey: Guid(293c9ebf722e6eb4b91c9b5fad6dc7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Mining/Source/gold_ore_block_2.fbx using Guid(293c9ebf722e6eb4b91c9b5fad6dc7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf3fc8409dd9c2f88702a6699c9d703') in 0.034942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.365047 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Sandstone/Source/gold_pyramid_top.fbx
-  artifactKey: Guid(55fee3a3a671b3144a8f450b753847c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Sandstone/Source/gold_pyramid_top.fbx using Guid(55fee3a3a671b3144a8f450b753847c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd85b0a450729c987c0088e3e6d616c') in 0.044432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.526937 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/grass_flower_balls_low_LOD_group.fbx
-  artifactKey: Guid(9f6314ee313ff418489eb496e8c91b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/grass_flower_balls_low_LOD_group.fbx using Guid(9f6314ee313ff418489eb496e8c91b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572dbbd2f81e60700644068b4a270ba2') in 0.036378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.503683 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/grass_tulip_flower_white_LOD_group.fbx
-  artifactKey: Guid(2577f791da13545eda3bdb679b713745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/grass_tulip_flower_white_LOD_group.fbx using Guid(2577f791da13545eda3bdb679b713745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec6c7c52d7728a410c0e32ad44d9354') in 0.055633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004582 seconds.
-  path: Assets/Documents/Bitgem/Jungle_Cube/Source/grasstop2_deco_LOD_group.fbx
-  artifactKey: Guid(d0d3a399b1fad4126b5b52cc7fae9829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/grasstop2_deco_LOD_group.fbx using Guid(d0d3a399b1fad4126b5b52cc7fae9829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab951b99d7b78692e5e08bb899530ae9') in 0.080409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.850623 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Snow/Source/ice_cube_1.fbx
-  artifactKey: Guid(8de9d39fc2df34846b685fe977168dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Snow/Source/ice_cube_1.fbx using Guid(8de9d39fc2df34846b685fe977168dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7788239d3db83725b9db065a518eb4ec') in 0.034007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.281334 seconds.
-  path: Assets/Documents/Bitgem/Cube_World/Snow/Source/ice_cube_3.fbx
-  artifactKey: Guid(6299cad6d90934e46afbafd4a27d37bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Documents/Bitgem/Cube_World/Snow/Source/ice_cube_3.fbx using Guid(6299cad6d90934e46afbafd4a27d37bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e611298a34d0e07a44fdbde898a62a5') in 0.043685 seconds 
+  Time since last request: 33.561268 seconds.
+  path: Assets/Game/Prefab/Boomerang.prefab
+  artifactKey: Guid(c1882878035aacf4b9f751c0d8ec6b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefab/Boomerang.prefab using Guid(c1882878035aacf4b9f751c0d8ec6b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc36d4525c9f75e52621ef2d29e174d8') in 0.005926 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002019 seconds.
+Registered in 0.002977 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\github\MoveStopMove_Tuyen\MoveStopMove_Tuyen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\github\MoveStopMove_Tuyen\MoveStopMove_Tuyen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.781 seconds
+- Completed reload, in  0.726 seconds
 Domain Reload Profiling:
-	ReloadAssembly (782ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (726ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (596ms)
-			LoadAssemblies (64ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (546ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (208ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (246ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (213ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (24.6 KB). Loaded Objects now: 3569.
-Memory consumption went from 202.3 MB to 202.2 MB.
-Total: 4.225700 ms (FindLiveObjects: 0.413400 ms CreateObjectMapping: 0.331900 ms MarkObjects: 3.446700 ms  DeleteObjects: 0.032600 ms)
+Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (24.5 KB). Loaded Objects now: 3577.
+Memory consumption went from 189.5 MB to 189.4 MB.
+Total: 2.826100 ms (FindLiveObjects: 0.344600 ms CreateObjectMapping: 0.122700 ms MarkObjects: 2.329600 ms  DeleteObjects: 0.028200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -504,6 +252,84 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4.143739 seconds.
+  path: Assets/Game/Prefab/Boomerang.prefab
+  artifactKey: Guid(c1882878035aacf4b9f751c0d8ec6b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefab/Boomerang.prefab using Guid(c1882878035aacf4b9f751c0d8ec6b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc36d4525c9f75e52621ef2d29e174d8') in 0.057521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.591476 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/palm_tree_small_red_LOD_group.fbx
+  artifactKey: Guid(e6bd9e13059a54505998eb121750ba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/palm_tree_small_red_LOD_group.fbx using Guid(e6bd9e13059a54505998eb121750ba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7530e0595399eea4e01b4c17e1ec0e') in 0.083251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.120479 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/lotus_leaf_small_LOD_group.fbx
+  artifactKey: Guid(6088c0ad8220e4f59b5e26c58dff07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/lotus_leaf_small_LOD_group.fbx using Guid(6088c0ad8220e4f59b5e26c58dff07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a31e7d3fc785210f4fa255e7ac571bb') in 0.035538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056744 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/lotus_flower_pink_LOD_group.fbx
+  artifactKey: Guid(bf8b6fa60bbc649309f76b4174ff2e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/lotus_flower_pink_LOD_group.fbx using Guid(bf8b6fa60bbc649309f76b4174ff2e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef740a4000b08989124ba06873cf6ce') in 0.040850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/lotus_leaf_big_LOD_group.fbx
+  artifactKey: Guid(5259dff4867704d89af6613aeacba7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/lotus_leaf_big_LOD_group.fbx using Guid(5259dff4867704d89af6613aeacba7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2649cee0da006ace2075995f32ae8cf8') in 0.039492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Powerups/Source/block_random.fbx
+  artifactKey: Guid(0bd4fcf1c9a959a44b1976c819475776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Powerups/Source/block_random.fbx using Guid(0bd4fcf1c9a959a44b1976c819475776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf326c926f5c48591adfd28d277544c') in 0.080061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Tree/Source/log4_LOD_group.fbx
+  artifactKey: Guid(01227628d8b72439185ad5aed1e887ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Tree/Source/log4_LOD_group.fbx using Guid(01227628d8b72439185ad5aed1e887ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f487eca346b8dc60e721c3c4fab83a1') in 0.048385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/log2_LOD_group.fbx
+  artifactKey: Guid(ef04aab29e58248b29e669055cc6d2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/log2_LOD_group.fbx using Guid(ef04aab29e58248b29e669055cc6d2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04e9955eda1b6703216b73af01abfcd') in 0.049915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Powerups/Source/block_health.fbx
+  artifactKey: Guid(652c35b79eef0b14eaa9556e944f663e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Powerups/Source/block_health.fbx using Guid(652c35b79eef0b14eaa9556e944f663e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54690efe9ffb7734ab18017a5dc8d7b0') in 0.052995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/log4_LOD_group.fbx
+  artifactKey: Guid(ac274014546384738beb8fadd906eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/log4_LOD_group.fbx using Guid(ac274014546384738beb8fadd906eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680354e5203d1b5e6f0bfec55de4e9c9') in 0.049290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Tree/Source/log1_LOD_group.fbx
+  artifactKey: Guid(3fe632a2e1b0b466ab55e6576ff848fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Tree/Source/log1_LOD_group.fbx using Guid(3fe632a2e1b0b466ab55e6576ff848fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc6b3a32dcdbf7e20c267e840c1fd6c') in 0.043101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Documents/Bitgem/Jungle_Cube/Source/log3_LOD_group.fbx
+  artifactKey: Guid(f80272be20a3e4384a2b627a94b514c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Jungle_Cube/Source/log3_LOD_group.fbx using Guid(f80272be20a3e4384a2b627a94b514c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13371c7dbe64784dd99c525bcfabe8d3') in 0.042122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Documents/Bitgem/Cube_World/Tree/Source/log2_LOD_group.fbx
+  artifactKey: Guid(05abdb273b8be4506ab47bf16035aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Bitgem/Cube_World/Tree/Source/log2_LOD_group.fbx using Guid(05abdb273b8be4506ab47bf16035aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e37539e6e1c16107df57ead05c2d2af') in 0.045212 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

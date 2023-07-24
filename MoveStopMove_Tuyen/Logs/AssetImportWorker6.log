@@ -1,0 +1,403 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15613 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\unity\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+E:/github/MoveStopMove_Tuyen/MoveStopMove_Tuyen
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+63195
+Successfully changed project path to: E:/github/MoveStopMove_Tuyen/MoveStopMove_Tuyen
+E:/github/MoveStopMove_Tuyen/MoveStopMove_Tuyen
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2036] Host "[IP] 192.168.0.55 [Port] 0 [Flags] 2 [Guid] 3223790481 [EditorId] 3223790481 [Version] 1048832 [Id] WindowsEditor(7,bin1st090104) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2036] Host "[IP] 192.168.0.55 [Port] 0 [Flags] 2 [Guid] 3223790481 [EditorId] 3223790481 [Version] 1048832 [Id] WindowsEditor(7,bin1st090104) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 90.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path E:/unity/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/github/MoveStopMove_Tuyen/MoveStopMove_Tuyen/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3168
+Initialize mono
+Mono path[0] = 'E:/unity/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/unity/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/unity/2021.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/unity/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/unity/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002014 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 226 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.750 seconds
+Domain Reload Profiling:
+	ReloadAssembly (750ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (601ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (80ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (292ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002213 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\github\MoveStopMove_Tuyen\MoveStopMove_Tuyen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\github\MoveStopMove_Tuyen\MoveStopMove_Tuyen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Domain Reload Profiling:
+	ReloadAssembly (763ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (589ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (284.6 KB). Loaded Objects now: 3566.
+Memory consumption went from 190.8 MB to 190.5 MB.
+Total: 2.656300 ms (FindLiveObjects: 0.251900 ms CreateObjectMapping: 0.095200 ms MarkObjects: 2.240100 ms  DeleteObjects: 0.068100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1012969.046195 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Mode_Home2.png
+  artifactKey: Guid(2545520b7e2e1e44882016922b6dd32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Mode_Home2.png using Guid(2545520b7e2e1e44882016922b6dd32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff783b6d3a6b0246d8917e7338346dd5') in 0.086979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180208 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/_Other/Gold.png
+  artifactKey: Guid(40cad17444efafe488b01a6d714600a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/_Other/Gold.png using Guid(40cad17444efafe488b01a6d714600a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c240eddf02822d8d008c1046e25ca100') in 0.018716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Joystick Pack/Sprites/Handles/Handle_Outline.png
+  artifactKey: Guid(085185b08a40a924985bc0e4176edea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Handles/Handle_Outline.png using Guid(085185b08a40a924985bc0e4176edea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711675119658b85cae1739b210088eda') in 0.052420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png
+  artifactKey: Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png using Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc115e5d375c1d62548d8ae0d084a93e') in 0.072260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png
+  artifactKey: Guid(cd0a2c1b2c014ba4c80c1df786e150e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png using Guid(cd0a2c1b2c014ba4c80c1df786e150e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0841741575b8c6838fa9a343efc50424') in 0.058987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060914 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-AttackUp_Upgrade.png
+  artifactKey: Guid(c6b148b2d875e90409d91af6d6938b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-AttackUp_Upgrade.png using Guid(c6b148b2d875e90409d91af6d6938b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e069e938308b235ea9997c05a2f5c666') in 0.023152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Ico-Checkin_Survival.png
+  artifactKey: Guid(58ff5176b10a4704f86c5f453c1365e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Ico-Checkin_Survival.png using Guid(58ff5176b10a4704f86c5f453c1365e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c597b17ac3e967a37cbd05e6d3b986') in 0.016646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Mode_Home.png
+  artifactKey: Guid(89ffda3f7f8fcbe47bb6c9bc1ca1f9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Mode_Home.png using Guid(89ffda3f7f8fcbe47bb6c9bc1ca1f9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beaa636e7855c8684d3265117b44d05d') in 0.017060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Kitchen_Survival.png
+  artifactKey: Guid(64cc9edebc6a34f4abdf3bc114b77c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Kitchen_Survival.png using Guid(64cc9edebc6a34f4abdf3bc114b77c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e67eec27031a001843739ee8a9c64ff') in 0.018658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Ico-Boss1.png
+  artifactKey: Guid(1d2c62c915405994d95e0e0489eeab7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Ico-Boss1.png using Guid(1d2c62c915405994d95e0e0489eeab7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e03a112710048c4fd6f6d6a026a7df') in 0.023761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.930149 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Shield_Upgrade.png
+  artifactKey: Guid(830b0bcd38414b242b5f40edc5dab7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Shield_Upgrade.png using Guid(830b0bcd38414b242b5f40edc5dab7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c40730992704132e7b933ad90517c07') in 0.014480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Skin_Home.png
+  artifactKey: Guid(8d8ada3422c70d64ab91e8540db52cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Skin_Home.png using Guid(8d8ada3422c70d64ab91e8540db52cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3b8265f1ea824aed822bd36e52595a') in 0.016636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Stadium_Survival.png
+  artifactKey: Guid(af08f2d9447ead2428294306d12142b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Stadium_Survival.png using Guid(af08f2d9447ead2428294306d12142b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23d755607afa3b0a33b1de1a2c34ec9') in 0.016598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/_Other/Ico-Vib_Home 2.png
+  artifactKey: Guid(5232207edccbbc7469ed1397560f7da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/_Other/Ico-Vib_Home 2.png using Guid(5232207edccbbc7469ed1397560f7da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1774d96c9fcffe92c964e2650c482045') in 0.017682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Video_TimeOut.png
+  artifactKey: Guid(c4c67d8b319cf9144b873802ab249a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Video_TimeOut.png using Guid(c4c67d8b319cf9144b873802ab249a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dbe9b6b5d70f9be114a2c18fbd199a') in 0.016841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico_FraStar#1_Rank.png
+  artifactKey: Guid(7b0115fc83873764f81f36d0ac8e7103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico_FraStar#1_Rank.png using Guid(7b0115fc83873764f81f36d0ac8e7103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badf2ffd7fc478eb931c06819a5d2ffa') in 0.018541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.456961 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico_FraStar#3_Rank.png
+  artifactKey: Guid(805cb7ce29553114a91cd8eca1863cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico_FraStar#3_Rank.png using Guid(805cb7ce29553114a91cd8eca1863cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d3bcef270b9ced9d039829badd564a') in 0.014801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Icon-Shorts_Skin.png
+  artifactKey: Guid(8e5b7ebcb3bb9844eb6678f88172c11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Icon-Shorts_Skin.png using Guid(8e5b7ebcb3bb9844eb6678f88172c11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89dc1543d98c1a4e501bae555c230fc8') in 0.016089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Icon-Lock_Skin.png
+  artifactKey: Guid(79b2087be051fea43b9c8f51637d0764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Icon-Lock_Skin.png using Guid(79b2087be051fea43b9c8f51637d0764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed873a61b434a681133a4f948b0b76a9') in 0.018469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005919 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 4/Icon_DeadPood.png
+  artifactKey: Guid(7965f490c2ec6044d854d957fe85186e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 4/Icon_DeadPood.png using Guid(7965f490c2ec6044d854d957fe85186e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7629273bbc2633f9578507c17e01a5af') in 0.022488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/GamePlay/Icon_Infinity.png
+  artifactKey: Guid(35c72fdb15f27df489a1cf00913ac24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/GamePlay/Icon_Infinity.png using Guid(35c72fdb15f27df489a1cf00913ac24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac0684c7c98a1f636046b664867031b') in 0.022774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/_Other/Icon_Tip.png
+  artifactKey: Guid(a1e342736502c5a42a641ec474ee0ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/_Other/Icon_Tip.png using Guid(a1e342736502c5a42a641ec474ee0ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966fede22c2c911407c0221e9ff6e525') in 0.019433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Loading/Img-Axe#1_Loading.png
+  artifactKey: Guid(c0e85ffc93ead054f8c67b9085091a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Loading/Img-Axe#1_Loading.png using Guid(c0e85ffc93ead054f8c67b9085091a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec44323c79a15ecf1e3e0334ece1141') in 0.020631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Loading/Img-Axe#3_Loading.png
+  artifactKey: Guid(319e8d62007f9024382d65ca74a3e482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Loading/Img-Axe#3_Loading.png using Guid(319e8d62007f9024382d65ca74a3e482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c813be4ee8af1eb7d2dcfcdd80d47e23') in 0.018994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-AttackBehind_Ability.jpg
+  artifactKey: Guid(940f72f476e3ef34791e0f24fed0cb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-AttackBehind_Ability.jpg using Guid(940f72f476e3ef34791e0f24fed0cb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8e3c0e0aff41dff55245d9d0b68594') in 0.023225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.120882 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Loading/Img-Char#3_Loading.png
+  artifactKey: Guid(4ded63d3f2930ad4491661f52ec7a074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Loading/Img-Char#3_Loading.png using Guid(4ded63d3f2930ad4491661f52ec7a074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6da3a0ceed0043c9cbd0bf9072a7366') in 0.017306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Share/Img-Frame_SocialSharing-2.png
+  artifactKey: Guid(cfe7765c6dc1f9f418bfc650a10470b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Share/Img-Frame_SocialSharing-2.png using Guid(cfe7765c6dc1f9f418bfc650a10470b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34893e90d7d15ad9143e1a007344553') in 0.019310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-GOldMiner_Ability.jpg
+  artifactKey: Guid(7b6469c4de5b32046b439c7968dba3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-GOldMiner_Ability.jpg using Guid(7b6469c4de5b32046b439c7968dba3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62beb11c7bab0896ab922576ec00897d') in 0.017848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-Piercing_Ability.jpg
+  artifactKey: Guid(339c36e7bb99a51498928de75e8d45a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-Piercing_Ability.jpg using Guid(339c36e7bb99a51498928de75e8d45a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0f85876c8e4adb8bd09b874bf4a479') in 0.023205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_Shop/Img-NoAds_Shop.png
+  artifactKey: Guid(45f1be2a4fba6f644a3431229fec00c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_Shop/Img-NoAds_Shop.png using Guid(45f1be2a4fba6f644a3431229fec00c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be61f81e9bc8a4267da889d9aec80b82') in 0.018568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.569825 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Img-Round_Offline.png
+  artifactKey: Guid(2fb85e3083bcbae45a09bd175f20db7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Img-Round_Offline.png using Guid(2fb85e3083bcbae45a09bd175f20db7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371c189f4216c21a957fa6105310d16a') in 0.020059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-StartBigger_Ability.jpg
+  artifactKey: Guid(f34c8dc083ce01f4ba8545de097ce781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-StartBigger_Ability.jpg using Guid(f34c8dc083ce01f4ba8545de097ce781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396ecf630f17506e8fa8bbee49c5e228') in 0.017115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020023 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_Rate/Img-Title_Rate.png
+  artifactKey: Guid(a9e66a7ebd7c18147896be5d5415ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_Rate/Img-Title_Rate.png using Guid(a9e66a7ebd7c18147896be5d5415ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e08221cfbc97cfc93a0273148b04b2c') in 0.021383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/_Other/Move.png
+  artifactKey: Guid(96ae09a41af2aeb48a650bae348b68aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/_Other/Move.png using Guid(96ae09a41af2aeb48a650bae348b68aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4441413148c4ce2dcc4ed395e0ebec') in 0.025789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.126232 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Rectangle-11.png
+  artifactKey: Guid(e4d7c2382e98a2b4faadece1c0506fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Rectangle-11.png using Guid(e4d7c2382e98a2b4faadece1c0506fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b605a12554b33df90850c459249266') in 0.018020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Sound.png
+  artifactKey: Guid(e39947e1f90484d45b5f9445bf3d3832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Sound.png using Guid(e39947e1f90484d45b5f9445bf3d3832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed5015079c12a598eda1c0beb1c66f9') in 0.015411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004390 seconds.
+  path: Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Classic/Untitled-1_0003_Shape-11-copy.png
+  artifactKey: Guid(e6897a324d55a964a9d218db3952755c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documents/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Classic/Untitled-1_0003_Shape-11-copy.png using Guid(e6897a324d55a964a9d218db3952755c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d574fec6b0494b3b3bec859d9d2b1c') in 0.016663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png
+  artifactKey: Guid(9332cf0d233636a40a024382720294a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png using Guid(9332cf0d233636a40a024382720294a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b728e83d4a8458c11e08d70d135232') in 0.033110 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
